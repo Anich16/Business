@@ -189,8 +189,14 @@ body {
 	width: 50%;
 }
 .services-list .service-item .symbol {
-
-	padding: 0 33px;
+	font-size: 50px;
+    color: #79a3cd;
+	padding-right: 33px;
+    padding-left: 20px;
+}
+.services-list .service-item .symbol:hover {
+	color: #f6772c;
+	cursor: pointer;
 }
 
 .services-list .service-item .description .title {
@@ -452,13 +458,24 @@ body {
 	font-size: 13px;
 	line-height: 22px;
 	color: #7b7b7b;
-	padding-bottom: 29px;
+	padding-bottom: 15px;
+	padding-right: 10px;
 
 }
 .block-reviews .review .description-review .text .quote {
 	font-size: 30px;
-	line-height: 22px;
+    font-family: "Gotham-Black", sans-serif;
+    padding-right: 5px;
 }
+.block-reviews .review .description-review .text .quote-inverted {
+	display: block;
+    text-align: right;
+    margin-right: 30%;
+    font-size: 30px;
+    font-family: "Gotham-Black", sans-serif;
+}
+
+
 .block-reviews .review .description-review .author {
 	text-transform: uppercase;
 	color: #f6772c;
