@@ -133,6 +133,7 @@ body {
     outline: none;
     cursor: pointer;
     padding: 15px 45px;
+    border-radius: 3px;
 }
 .slider {
 	height: 370px;
@@ -462,17 +463,17 @@ body {
 	padding-right: 10px;
 
 }
-.block-reviews .review .description-review .text .quote {
+.block-reviews .review .description-review .text:before, 
+.block-reviews .review .description-review .text:after {
+	content: "“";
 	font-size: 30px;
-    font-family: "Gotham-Black", sans-serif;
-    padding-right: 5px;
+	font-family: "Gotham-Black", sans-serif;
+
 }
-.block-reviews .review .description-review .text .quote-inverted {
+
+.block-reviews .review .description-review .text:after {
 	display: block;
-    text-align: right;
-    margin-right: 30%;
-    font-size: 30px;
-    font-family: "Gotham-Black", sans-serif;
+	text-align: center;
 }
 
 
@@ -597,6 +598,15 @@ body {
 	color: #aeb7ba;
 	border-top: 1px solid #394b50;
 	display: block;
+}
+.contacts .map .logo-place .our-address .address .number-link {
+	font-size: 13px;
+	line-height: 24px;
+	font-family: "Lato", sans-serif;
+	color: #aeb7ba;
+	border-top: 1px solid #394b50;
+	display: block;
+	text-decoration: none;
 }
 .contacts .map .logo-place .our-address .address .link {
 	text-decoration: none;
