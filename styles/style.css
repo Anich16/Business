@@ -117,8 +117,10 @@ body {
 #formSubscribe .request-item .label {
 	font-size: 13px;
     border: none;
-    color: #a9a9a9;
-    outline: none;
+    color: #000000;
+	outline: none;
+	font-size: 15px;
+	font-family: sans-serif;
 }
 #formSubscribe .send-button {
     border-radius: 3px;
@@ -452,6 +454,8 @@ body {
 .block-reviews .review .photo-client {
 	border-radius: 65px;
 	padding-right: 15px;
+	height: 80%;
+	padding-top: 10px;
 } 
 
 .block-reviews .review .description-review .text {
@@ -468,12 +472,12 @@ body {
 	content: "“";
 	font-size: 30px;
 	font-family: "Gotham-Black", sans-serif;
-
+	display: block;
 }
 
 .block-reviews .review .description-review .text:after {
-	display: block;
-	text-align: center;
+	
+	text-align: right;
 }
 
 
@@ -524,8 +528,10 @@ body {
 #formList .form-item-email .label {
 	font-size: 13px;
     border: none;
-    color: #a9a9a9;
-    outline: none;
+    color: #000000;
+	outline: none;
+	font-family: sans-serif;
+	font-size: 15px;
 }
 #formList .form-item-email {
 	height: 45px;
