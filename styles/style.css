@@ -26,7 +26,6 @@
 
 body {
 	width: 1700px;
-	/* border: 1px solid #000000; */
 	margin: 0 auto;
 	background: #ffffff;
 }
@@ -117,7 +116,7 @@ body {
 #formSubscribe .request-item .label {
 	font-size: 13px;
     border: none;
-    color: #a9a9a9;
+    color: #000000;
     outline: none;
 }
 #formSubscribe .send-button {
@@ -262,6 +261,7 @@ body {
 	border-radius: 3px;
 	padding: 16px 22px;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 .price-section {
 	padding: 136px 265px 163px;
@@ -354,6 +354,7 @@ body {
     background: #ffbb42;
     border-radius: 5px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 .strategy-work  {
 	padding: 157px 265px 152px;
@@ -445,13 +446,15 @@ body {
 	background: #ffffff;
     border-radius: 5px;
     display: flex;
-    padding: 43px 18px 52px 29px;
+    padding: 43px 18px 52px 20px;
     margin-bottom: 22px;
     width: 45%
 }
 .block-reviews .review .photo-client {
 	border-radius: 65px;
 	padding-right: 15px;
+	width: 100px;
+	height: 119px;
 } 
 
 .block-reviews .review .description-review .text {
@@ -468,12 +471,17 @@ body {
 	content: "“";
 	font-size: 30px;
 	font-family: "Gotham-Black", sans-serif;
+	display: inline-block;
 
 }
-
+.block-reviews .review .description-review .text:before {
+	float: left;
+	padding-bottom: 45px;
+	padding-right: 5px;
+}
 .block-reviews .review .description-review .text:after {
-	display: block;
-	text-align: center;
+	
+	float: right;
 }
 
 
@@ -483,6 +491,7 @@ body {
 	font-family: "Lato", sans-serif;
 	font-size: 14px;
 	line-height: 22px;
+	padding-left: 15px;
 }
 .block-reviews .review .description-review .author-position {
 	text-transform: uppercase;
@@ -524,7 +533,7 @@ body {
 #formList .form-item-email .label {
 	font-size: 13px;
     border: none;
-    color: #a9a9a9;
+    color: #000000;
     outline: none;
 }
 #formList .form-item-email {
