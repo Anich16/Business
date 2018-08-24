@@ -482,6 +482,7 @@ body {
 }
 .block-reviews .review .description-review .text:after {
 	float: right;
+	transform: rotate(180deg);
 }
 
 
